@@ -6,8 +6,7 @@ public class Main {
         int bonus;
         if (payment < 1000) {
             bonus = 0;
-        }
-        else {
+        } else {
             bonus = payment / 100;
         }
         int total = balance + payment + bonus;
